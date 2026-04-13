@@ -1,0 +1,779 @@
+RestaurantID,MenuCategory,MenuItem,Ingredients,Price,Profitability,id
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.12,Medium,1
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.66,High,2
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.55,High,3
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.73,Medium,4
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.28,High,5
+R001,Beverages,Soda,['confidential'],2.87,Low,6
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.47,Medium,7
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.78,High,8
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.08,High,10
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.09,Medium,11
+R001,Beverages,Iced Tea,['confidential'],4.43,Medium,12
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.46,Medium,13
+R003,Beverages,Lemonade,['confidential'],3.83,Medium,14
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.91,Medium,15
+R002,Beverages,Coffee,['confidential'],2.94,Low,16
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.52,High,17
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.75,High,18
+R003,Beverages,Soda,['confidential'],4.88,Medium,21
+R001,Beverages,Soda,['confidential'],2.81,Low,22
+R001,Beverages,Iced Tea,['confidential'],4.9,Low,23
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.62,High,24
+R001,Beverages,Coffee,['confidential'],2.02,Low,26
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.11,High,27
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.52,Medium,28
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.72,Medium,29
+R001,Beverages,Coffee,['confidential'],2.99,High,30
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.25,Medium,31
+R003,Beverages,Coffee,['confidential'],2.82,Low,32
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.84,High,33
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.22,High,34
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.11,Medium,36
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.96,High,37
+R001,Beverages,Soda,['confidential'],3.53,Medium,38
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.23,High,39
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.61,High,41
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.43,Medium,42
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.06,High,43
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.53,High,46
+R001,Beverages,Soda,['confidential'],4.58,Medium,47
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.01,High,48
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.84,Medium,49
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.19,Low,50
+R001,Beverages,Soda,['confidential'],2.19,Low,51
+R002,Beverages,Coffee,['confidential'],2.76,Low,52
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.48,Medium,53
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.77,High,54
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.45,Medium,55
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.45,Medium,56
+R002,Beverages,Iced Tea,['confidential'],2.73,Low,57
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.38,Medium,58
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.05,Medium,59
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.04,High,60
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.26,Medium,62
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.14,High,63
+R003,Beverages,Soda,['confidential'],4.07,Medium,64
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.06,Medium,65
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.47,Low,66
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.43,Medium,67
+R002,Beverages,Soda,['confidential'],3.55,Medium,68
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.4,Low,69
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.9,High,71
+R003,Beverages,Coffee,['confidential'],3.21,Medium,72
+R001,Beverages,Coffee,['confidential'],2.25,Low,73
+R002,Beverages,Coffee,['confidential'],3.74,High,74
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.82,High,75
+R002,Beverages,Iced Tea,['confidential'],3.65,Medium,76
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.94,High,77
+R001,Beverages,Soda,['confidential'],3.48,Medium,78
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.08,Medium,79
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.65,Medium,80
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.68,High,81
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.47,High,82
+R003,Beverages,Soda,['confidential'],2.59,Low,84
+R001,Beverages,Soda,['confidential'],4.98,Medium,86
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.4,High,87
+R003,Beverages,Soda,['confidential'],4.86,Medium,88
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.77,High,89
+R003,Beverages,Soda,['confidential'],2.23,Low,90
+R003,Beverages,Iced Tea,['confidential'],3.67,Medium,92
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.95,High,93
+R002,Beverages,Iced Tea,['confidential'],3.85,Medium,94
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.54,Medium,95
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.11,High,96
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.96,High,97
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.67,High,98
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.17,High,99
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.28,Low,100
+R001,Beverages,Coffee,['confidential'],3.19,Medium,101
+R002,Beverages,Lemonade,['confidential'],3.01,Medium,102
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.67,High,103
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.55,Medium,104
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.14,High,105
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.27,Medium,106
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.91,Medium,107
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.42,High,109
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.37,High,110
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.9,Medium,112
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.25,Medium,113
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.42,High,114
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.41,High,115
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.24,High,116
+R001,Beverages,Soda,['confidential'],2.84,Low,117
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.54,High,118
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.33,Low,119
+R002,Beverages,Lemonade,['confidential'],4.27,Medium,120
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.64,Medium,121
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.99,High,122
+R001,Beverages,Coffee,['confidential'],2.29,Low,123
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.73,Medium,124
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.34,Medium,125
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.32,Medium,126
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.0,High,127
+R001,Beverages,Soda,['confidential'],4.05,Medium,128
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.01,Medium,129
+R003,Beverages,Coffee,['confidential'],4.03,High,130
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.26,High,132
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.34,High,133
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.71,Medium,134
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.33,Low,135
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.23,Medium,136
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.11,High,137
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.05,High,139
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.97,Medium,140
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.98,Medium,141
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.89,Medium,142
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.06,Low,143
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.4,High,145
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.32,High,146
+R002,Beverages,Coffee,['confidential'],3.17,Medium,147
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.89,Medium,148
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.64,Medium,149
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.25,Medium,151
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.29,Medium,152
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.31,High,154
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.5,High,155
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.46,High,156
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.14,Medium,157
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.0,High,158
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.24,High,160
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.59,Medium,161
+R003,Beverages,Coffee,['confidential'],4.59,Medium,162
+R002,Beverages,Soda,['confidential'],4.84,Medium,163
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.45,Medium,164
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.78,Medium,165
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.06,High,166
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.81,Medium,167
+R002,Beverages,Iced Tea,['confidential'],2.17,Low,168
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.44,High,169
+R003,Beverages,Soda,['confidential'],2.25,Medium,171
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.45,High,172
+R001,Beverages,Soda,['confidential'],2.13,Low,173
+R001,Beverages,Iced Tea,['confidential'],4.77,Medium,174
+R001,Beverages,Lemonade,['confidential'],4.09,Medium,175
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.44,High,176
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.96,High,177
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.52,High,178
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.59,High,179
+R002,Beverages,Coffee,['confidential'],3.86,Medium,180
+R002,Beverages,Coffee,['confidential'],3.39,Medium,181
+R002,Beverages,Iced Tea,['confidential'],2.8,Low,182
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.9,High,183
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.8,Medium,184
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.53,Medium,186
+R003,Beverages,Soda,['confidential'],4.33,Medium,190
+R002,Beverages,Lemonade,['confidential'],2.45,Low,191
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.38,High,193
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.94,Medium,194
+R001,Beverages,Lemonade,['confidential'],4.59,Medium,195
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.38,High,197
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.94,Low,199
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.45,Medium,200
+R003,Beverages,Lemonade,['confidential'],4.01,Medium,202
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.47,High,203
+R002,Beverages,Soda,['confidential'],3.66,Medium,204
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.88,High,205
+R001,Beverages,Lemonade,['confidential'],2.09,Low,206
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.48,High,207
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.36,Medium,208
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.85,High,209
+R002,Beverages,Soda,['confidential'],3.54,Medium,211
+R003,Beverages,Iced Tea,['confidential'],3.87,Medium,212
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.58,High,213
+R002,Beverages,Soda,['confidential'],3.48,Medium,214
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.29,Medium,217
+R003,Beverages,Lemonade,['confidential'],3.2,Medium,218
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.74,Medium,219
+R001,Beverages,Iced Tea,['confidential'],3.81,Medium,220
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.62,Medium,222
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.49,Medium,223
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.55,High,224
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.92,Medium,225
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.57,Medium,226
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.77,Medium,227
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.09,High,228
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.86,High,229
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.85,Medium,230
+R002,Beverages,Lemonade,['confidential'],3.59,High,231
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.26,Medium,232
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.95,High,233
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.3,Medium,234
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.99,Low,235
+R003,Beverages,Soda,['confidential'],4.21,Medium,236
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.41,High,237
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.8,Medium,238
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.32,Medium,239
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.98,Medium,240
+R003,Beverages,Lemonade,['confidential'],4.21,Medium,241
+R003,Beverages,Coffee,['confidential'],3.29,Medium,242
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.06,High,243
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.24,Low,245
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.58,Medium,246
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.61,Medium,247
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.09,High,248
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.36,Medium,249
+R003,Beverages,Soda,['confidential'],4.95,Low,250
+R003,Beverages,Lemonade,['confidential'],4.45,Medium,252
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.84,High,253
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.69,High,255
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.66,High,256
+R001,Beverages,Soda,['confidential'],3.59,Medium,257
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.33,Medium,258
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.98,High,259
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.52,Low,260
+R002,Beverages,Iced Tea,['confidential'],2.97,Low,262
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.17,High,264
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.49,Medium,265
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.22,High,266
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.96,High,267
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.69,High,268
+R001,Beverages,Coffee,['confidential'],3.72,Medium,269
+R001,Beverages,Lemonade,['confidential'],4.39,Medium,270
+R002,Beverages,Iced Tea,['confidential'],4.48,Medium,271
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.66,High,272
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.74,Medium,273
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.72,High,274
+R003,Beverages,Iced Tea,['confidential'],4.7,Low,275
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.21,High,276
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.49,Medium,277
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.44,High,278
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.32,Medium,279
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.35,High,280
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.95,Medium,281
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.89,High,282
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.95,High,283
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.34,High,284
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.41,Medium,285
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.75,High,286
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.57,Medium,287
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.05,Medium,288
+R003,Beverages,Coffee,['confidential'],4.32,Medium,289
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.94,High,290
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.46,Medium,291
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.14,High,292
+R002,Beverages,Lemonade,['confidential'],3.39,Medium,293
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.12,High,294
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.84,Medium,295
+R003,Beverages,Coffee,['confidential'],3.7,Medium,296
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.05,High,299
+R002,Beverages,Soda,['confidential'],2.01,Low,305
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.15,Medium,306
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.18,High,308
+R002,Beverages,Soda,['confidential'],3.5,Medium,310
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.18,Medium,311
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.32,High,312
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.25,Medium,313
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.9,Medium,314
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.52,Medium,315
+R001,Beverages,Soda,['confidential'],3.19,Medium,316
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.98,High,317
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.22,High,321
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.33,Medium,322
+R001,Beverages,Soda,['confidential'],2.23,Low,323
+R003,Beverages,Iced Tea,['confidential'],2.81,Low,324
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.01,High,325
+R003,Beverages,Coffee,['confidential'],4.15,Medium,326
+R001,Beverages,Soda,['confidential'],3.66,Medium,327
+R001,Beverages,Iced Tea,['confidential'],3.02,Medium,329
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.53,High,330
+R003,Beverages,Iced Tea,['confidential'],4.42,Medium,331
+R002,Beverages,Coffee,['confidential'],4.42,Medium,332
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.94,High,335
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.26,High,337
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.7,High,338
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.31,High,339
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.54,Medium,341
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.1,Medium,342
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.78,High,343
+R003,Beverages,Coffee,['confidential'],3.28,Medium,344
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.81,Medium,346
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.33,High,347
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.58,Medium,348
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.76,High,349
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.56,High,351
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.3,High,353
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.51,Medium,354
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.83,Medium,356
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.7,Medium,357
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.83,Medium,358
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.84,High,359
+R003,Beverages,Coffee,['confidential'],4.16,Medium,360
+R003,Beverages,Lemonade,['confidential'],4.85,Medium,361
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.37,High,362
+R003,Beverages,Lemonade,['confidential'],3.79,High,364
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.69,High,365
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.56,High,366
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.46,Medium,367
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.82,High,368
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.53,Medium,369
+R001,Beverages,Lemonade,['confidential'],4.75,Medium,372
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.83,High,373
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.42,High,374
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.46,Low,376
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.7,High,377
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.16,High,378
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.21,Medium,381
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.47,High,382
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.95,High,383
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.67,High,384
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.3,Medium,386
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.44,High,387
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.65,Medium,388
+R003,Beverages,Soda,['confidential'],3.62,Medium,389
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.9,High,392
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.29,High,393
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.09,Medium,394
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.03,High,395
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.64,Medium,397
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.38,High,398
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.27,Medium,399
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.73,High,400
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.13,Medium,401
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.09,Medium,402
+R001,Beverages,Coffee,['confidential'],2.65,Low,403
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.84,High,405
+R003,Beverages,Coffee,['confidential'],2.7,Low,407
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.08,High,408
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.7,Medium,409
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.8,Medium,410
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.84,Low,412
+R003,Beverages,Iced Tea,['confidential'],3.58,Medium,413
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.37,Low,414
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.28,High,415
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.36,Low,416
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.26,High,417
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.16,High,418
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.77,Medium,419
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.03,High,420
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.32,High,421
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.08,Medium,422
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.44,High,423
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.43,High,424
+R001,Beverages,Soda,['confidential'],4.97,Low,425
+R002,Beverages,Soda,['confidential'],3.44,Medium,426
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.71,High,427
+R002,Beverages,Lemonade,['confidential'],4.59,Medium,428
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.96,Low,429
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.6,Medium,430
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.97,High,431
+R002,Beverages,Lemonade,['confidential'],4.1,Medium,432
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.73,High,433
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.26,High,434
+R002,Beverages,Lemonade,['confidential'],2.69,Low,435
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.18,High,436
+R002,Beverages,Soda,['confidential'],3.85,Medium,438
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.81,Medium,439
+R002,Beverages,Coffee,['confidential'],3.62,Medium,440
+R003,Beverages,Iced Tea,['confidential'],2.85,Low,441
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.44,High,442
+R003,Beverages,Coffee,['confidential'],2.54,Low,443
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.56,High,444
+R002,Beverages,Lemonade,['confidential'],2.5,Low,445
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.69,Medium,447
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.14,High,448
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.58,High,449
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.75,High,450
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.7,High,451
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.59,Medium,452
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.55,Medium,455
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.94,Medium,458
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.09,Medium,460
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.13,Medium,461
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.58,Medium,462
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.64,Medium,464
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.3,Medium,465
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.31,Medium,466
+R001,Beverages,Coffee,['confidential'],4.9,Medium,467
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.01,Medium,468
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.8,High,469
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.37,High,470
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.89,Medium,471
+R002,Beverages,Coffee,['confidential'],2.93,Low,472
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.25,Medium,473
+R002,Beverages,Iced Tea,['confidential'],3.44,Medium,474
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.85,High,475
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.46,High,476
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.57,Medium,477
+R003,Beverages,Iced Tea,['confidential'],3.85,Medium,479
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.37,High,482
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.99,Medium,483
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.4,High,484
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.51,Medium,485
+R001,Beverages,Lemonade,['confidential'],2.37,Low,486
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.99,Medium,488
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.8,Medium,490
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.78,High,491
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.64,Medium,492
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.6,Medium,493
+R003,Beverages,Soda,['confidential'],3.44,Medium,494
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.64,High,495
+R001,Beverages,Soda,['confidential'],4.37,Medium,496
+R003,Beverages,Lemonade,['confidential'],2.49,Low,497
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.82,Medium,499
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.72,Medium,500
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.4,High,501
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.88,High,505
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.41,Medium,506
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.93,High,507
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.89,High,508
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.69,Medium,509
+R002,Beverages,Soda,['confidential'],4.2,Medium,510
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.08,High,511
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.38,Medium,512
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.2,High,513
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.73,Medium,514
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.69,High,517
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.09,Medium,518
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.35,Medium,520
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.7,Low,521
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.69,High,522
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.74,Medium,523
+R002,Beverages,Coffee,['confidential'],2.11,Low,525
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.34,High,526
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.06,Medium,528
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.37,High,530
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.57,Medium,531
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.21,Medium,532
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.88,High,533
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.29,High,534
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.54,Medium,536
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.0,High,537
+R003,Beverages,Iced Tea,['confidential'],2.92,Low,538
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.1,High,539
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.12,High,540
+R001,Beverages,Iced Tea,['confidential'],4.6,Medium,541
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.62,Low,542
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.46,High,544
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.15,High,546
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.27,High,547
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.44,Medium,548
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.72,Medium,549
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.97,Medium,551
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.51,High,552
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.01,High,553
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.17,High,554
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.18,High,555
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.09,Medium,556
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.82,Medium,559
+R003,Beverages,Iced Tea,['confidential'],3.93,Medium,561
+R002,Beverages,Coffee,['confidential'],4.54,Medium,563
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.7,High,565
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.49,High,566
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.33,Medium,567
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.02,Medium,568
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.68,Medium,569
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.52,Medium,571
+R001,Beverages,Coffee,['confidential'],3.57,Medium,572
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.03,High,573
+R003,Beverages,Coffee,['confidential'],2.27,Medium,574
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.09,Medium,575
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.27,Medium,576
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.07,Medium,578
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.73,High,582
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.71,High,585
+R002,Beverages,Lemonade,['confidential'],4.55,Medium,586
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.43,Medium,587
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.11,High,588
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.08,High,589
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.96,Medium,590
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.07,High,591
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.86,High,592
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.99,Medium,593
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.76,High,594
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.76,High,595
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.41,Medium,596
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.24,High,597
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.34,Medium,599
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.55,Medium,600
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.47,Medium,601
+R001,Beverages,Lemonade,['confidential'],3.92,Medium,602
+R002,Beverages,Iced Tea,['confidential'],4.04,Medium,603
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.85,Medium,604
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.62,High,605
+R002,Beverages,Iced Tea,['confidential'],4.87,Medium,607
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.28,High,608
+R003,Beverages,Iced Tea,['confidential'],2.29,Low,609
+R003,Beverages,Iced Tea,['confidential'],2.7,Low,611
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.65,Medium,613
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.82,High,614
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.55,Medium,615
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.4,High,617
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.59,Medium,618
+R002,Beverages,Soda,['confidential'],3.17,Medium,622
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.78,Medium,623
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.78,High,624
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.12,Medium,625
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.54,Medium,627
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.63,High,628
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.93,Medium,629
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.24,High,630
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.47,High,631
+R001,Beverages,Lemonade,['confidential'],4.86,Low,632
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.57,Medium,633
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.03,Medium,634
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.76,High,636
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.03,High,638
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.61,Medium,639
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.18,Medium,640
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.67,Medium,642
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.48,High,643
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.92,High,644
+R001,Beverages,Coffee,['confidential'],4.99,Medium,645
+R001,Beverages,Coffee,['confidential'],3.58,Medium,647
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.92,Medium,649
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.82,Medium,650
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.39,High,651
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.34,Medium,652
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.9,Medium,653
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.9,Medium,654
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.08,Medium,655
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.39,Medium,656
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.41,Medium,657
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.52,High,658
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.97,High,660
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.72,Medium,663
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.51,High,665
+R001,Beverages,Lemonade,['confidential'],3.49,Medium,666
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.4,Medium,667
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.92,High,669
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.29,Medium,670
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.59,High,671
+R003,Beverages,Lemonade,['confidential'],2.04,Low,672
+R001,Beverages,Soda,['confidential'],3.16,Medium,673
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.25,High,674
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.84,Low,675
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.98,Medium,676
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",16.03,Medium,677
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.69,High,679
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.67,High,680
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.31,High,681
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.72,High,682
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.53,High,683
+R001,Beverages,Coffee,['confidential'],3.42,Medium,684
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.74,High,685
+R003,Beverages,Coffee,['confidential'],3.85,Medium,686
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.38,Medium,687
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.83,High,689
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.61,Medium,690
+R001,Beverages,Coffee,['confidential'],3.49,Medium,691
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.47,High,693
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.56,High,696
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.65,Medium,698
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.28,High,699
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",22.33,High,700
+R003,Beverages,Coffee,['confidential'],4.2,Medium,701
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.2,High,702
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.65,High,703
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.66,High,704
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.18,High,706
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.78,Medium,707
+R003,Beverages,Coffee,['confidential'],4.4,High,708
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.2,High,709
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",26.24,High,713
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.29,Medium,714
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.7,High,715
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.58,Medium,716
+R001,Beverages,Coffee,['confidential'],4.34,Medium,717
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.92,Medium,718
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.33,High,720
+R003,Beverages,Soda,['confidential'],3.93,Medium,722
+R002,Beverages,Iced Tea,['confidential'],3.8,Medium,724
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.25,High,725
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.49,Medium,726
+R001,Beverages,Iced Tea,['confidential'],4.95,Medium,727
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.17,High,728
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.6,Medium,730
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.36,Low,731
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.45,High,733
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.1,Medium,734
+R002,Beverages,Soda,['confidential'],2.55,Low,736
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.48,Medium,737
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.82,High,738
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.94,High,739
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.82,Medium,740
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.65,High,741
+R001,Beverages,Iced Tea,['confidential'],3.89,Medium,743
+R001,Beverages,Soda,['confidential'],2.02,Low,745
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.15,High,746
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.57,Medium,747
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.14,Medium,749
+R003,Beverages,Iced Tea,['confidential'],2.75,Low,750
+R002,Beverages,Soda,['confidential'],3.46,Medium,752
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.21,Medium,754
+R002,Beverages,Coffee,['confidential'],3.64,Medium,756
+R003,Beverages,Lemonade,['confidential'],3.18,Medium,757
+R002,Beverages,Coffee,['confidential'],2.78,Low,758
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.86,High,759
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.98,Medium,760
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.72,High,761
+R001,Beverages,Lemonade,['confidential'],2.75,Low,763
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.18,High,764
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.39,Medium,767
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.16,Medium,768
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.24,Medium,769
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.91,Medium,771
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.94,High,773
+R001,Beverages,Coffee,['confidential'],2.78,Low,774
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.57,High,775
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.06,High,777
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.92,Medium,778
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.82,Medium,780
+R002,Beverages,Lemonade,['confidential'],2.32,Medium,781
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.37,Medium,783
+R002,Beverages,Coffee,['confidential'],3.07,Medium,784
+R001,Beverages,Soda,['confidential'],3.9,Medium,785
+R002,Beverages,Iced Tea,['confidential'],2.47,Low,787
+R002,Beverages,Iced Tea,['confidential'],2.95,Low,788
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.28,High,789
+R003,Beverages,Iced Tea,['confidential'],2.42,Low,790
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.64,Medium,791
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.59,High,792
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.24,High,793
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.51,High,794
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.86,Medium,795
+R002,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.84,High,797
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.65,High,798
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.43,High,801
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.14,Medium,802
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.46,Medium,804
+R003,Beverages,Coffee,['confidential'],3.58,Medium,805
+R001,Beverages,Coffee,['confidential'],2.26,Low,806
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.99,High,807
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.91,Medium,808
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.35,High,809
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.64,High,810
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.34,Medium,811
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.56,High,813
+R001,Beverages,Lemonade,['confidential'],2.84,Low,814
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.66,High,815
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.19,Medium,816
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.86,Medium,817
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.74,High,820
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.97,High,822
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.77,High,823
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.18,Medium,824
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",19.2,Medium,825
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",19.11,Medium,826
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.27,High,828
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.13,Medium,830
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.48,High,831
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.38,Medium,836
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.31,High,837
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.89,High,839
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.64,Medium,840
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.15,Medium,841
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.15,High,843
+R001,Beverages,Soda,['confidential'],4.08,Medium,844
+R002,Beverages,Iced Tea,['confidential'],4.32,Medium,845
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",11.65,Medium,846
+R002,Beverages,Soda,['confidential'],3.89,Medium,847
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.66,Medium,848
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.63,Medium,850
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.37,High,852
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.31,Medium,853
+R002,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.39,Medium,854
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.32,Medium,855
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.7,Medium,856
+R001,Beverages,Coffee,['confidential'],3.77,Medium,857
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.11,Medium,858
+R002,Beverages,Lemonade,['confidential'],4.53,Medium,859
+R001,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",27.04,Low,860
+R001,Beverages,Iced Tea,['confidential'],3.19,Medium,861
+R002,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.96,High,862
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.73,High,863
+R003,Beverages,Coffee,['confidential'],4.72,Medium,868
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.72,High,869
+R002,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.04,High,871
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.58,High,872
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.76,High,874
+R003,Beverages,Iced Tea,['confidential'],2.28,Low,875
+R003,Beverages,Coffee,['confidential'],4.25,Medium,876
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",16.69,High,878
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",28.32,Low,879
+R001,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.54,Low,880
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.8,High,883
+R002,Beverages,Iced Tea,['confidential'],2.04,Low,884
+R002,Beverages,Lemonade,['confidential'],3.35,Medium,885
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.31,Medium,886
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.24,Medium,887
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.8,Medium,890
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.7,High,891
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.69,Medium,893
+R003,Beverages,Coffee,['confidential'],3.11,Medium,894
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",17.48,Medium,896
+R001,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.4,Medium,898
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.92,High,900
+R003,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.74,High,901
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.82,High,903
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.43,Medium,904
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",10.31,Medium,906
+R003,Main Course,Shrimp Scampi,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",15.35,Medium,907
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.41,Medium,908
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.81,Medium,909
+R002,Beverages,Soda,['confidential'],3.42,Low,910
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.25,High,912
+R002,Beverages,Soda,['confidential'],3.16,High,913
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.18,Medium,915
+R001,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.4,Medium,916
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.64,High,917
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.4,Medium,918
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",12.08,High,920
+R001,Beverages,Iced Tea,['confidential'],3.38,Medium,924
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.28,Medium,925
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.35,High,926
+R003,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",21.88,Low,928
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.53,High,929
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.54,Medium,931
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.75,Medium,933
+R002,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.63,High,934
+R001,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.26,High,936
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.91,High,938
+R003,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.4,Medium,939
+R001,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.25,High,941
+R003,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.56,Medium,942
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",17.63,High,944
+R002,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.06,Medium,945
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.49,High,946
+R001,Beverages,Coffee,['confidential'],4.41,Medium,947
+R003,Beverages,Iced Tea,['confidential'],4.87,Medium,948
+R003,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",12.01,Medium,949
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.42,Medium,951
+R001,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.0,Medium,952
+R001,Beverages,Lemonade,['confidential'],3.84,Low,954
+R003,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.54,Medium,955
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",13.06,Medium,956
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.66,High,957
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",8.71,Medium,958
+R002,Beverages,Iced Tea,['confidential'],2.23,Low,959
+R003,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",18.63,Medium,960
+R002,Beverages,Iced Tea,['confidential'],2.22,Low,961
+R001,Beverages,Lemonade,['confidential'],2.63,Low,962
+R002,Desserts,New York Cheesecake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.03,High,963
+R002,Appetizers,Spinach Artichoke Dip,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.34,Medium,965
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",9.31,Medium,968
+R003,Desserts,Fruit Tart,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",14.49,Medium,969
+R002,Beverages,Coffee,['confidential'],3.66,Medium,970
+R002,Main Course,Grilled Steak,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",25.71,High,971
+R001,Beverages,Lemonade,['confidential'],3.66,Medium,972
+R003,Beverages,Soda,['confidential'],4.75,Medium,973
+R002,Beverages,Lemonade,['confidential'],2.48,Low,974
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",24.44,High,975
+R003,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",10.82,Medium,976
+R001,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",15.11,High,977
+R002,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",23.9,High,978
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.11,High,980
+R001,Beverages,Lemonade,['confidential'],4.48,Medium,981
+R003,Desserts,Chocolate Lava Cake,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.43,High,982
+R001,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",29.04,High,984
+R002,Appetizers,Bruschetta,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",14.51,High,986
+R001,Beverages,Lemonade,['confidential'],2.01,High,987
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.33,High,989
+R001,Beverages,Lemonade,['confidential'],4.83,Medium,990
+R001,Appetizers,Stuffed Mushrooms,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",13.47,High,991
+R001,Main Course,Chicken Alfredo,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.4,High,992
+R003,Beverages,Coffee,['confidential'],3.3,Medium,993
+R003,Beverages,Iced Tea,['confidential'],3.9,Low,994
+R001,Appetizers,Caprese Salad,"['Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",11.86,Medium,996
+R003,Main Course,Vegetable Stir-Fry,"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",20.57,High,997
+R002,Desserts,Tiramisu,"['Chocolate', 'Butter', 'Sugar', 'Eggs']",18.8,High,998
