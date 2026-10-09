@@ -1,0 +1,16 @@
+# Прямые зависимости проекта: только то, что реально импортируется
+# в ноутбуке CNN.ipynb.
+# Транзитивные зависимости (scipy, joblib, contourpy, pyparsing и прочее)
+# не выписаны: pip подтянет их сам при установке scikit-learn.
+# Ноутбук запускается в Jupyter или VS Code, сам Jupyter здесь не закреплён.
+
+pandas==3.0.3
+numpy==2.5.1
+matplotlib==3.11.0
+scikit-learn==1.9.0
+torch==2.13.0
+torchvision==0.28.0
+pillow==12.3.0
+
+# seaborn не используется. scikit-learn нужен ради cosine_similarity,
+# torch и torchvision весят под 2 ГБ вместе с CUDA.

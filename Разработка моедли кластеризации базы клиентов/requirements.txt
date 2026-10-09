@@ -1,0 +1,12 @@
+# Прямые зависимости проекта: только то, что реально импортируется
+# в ноутбуке clastering.ipynb.
+# Транзитивные зависимости (scipy, joblib, contourpy, pyparsing и прочее)
+# не выписаны: pip подтянет их сам при установке scikit-learn.
+# Ноутбук запускается в Jupyter или VS Code, сам Jupyter здесь не закреплён.
+
+pandas==3.0.3
+numpy==2.5.1
+scikit-learn==1.9.0
+matplotlib==3.11.0
+
+# seaborn и plotly в этом проекте не импортируются

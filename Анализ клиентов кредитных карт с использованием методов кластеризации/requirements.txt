@@ -1,0 +1,17 @@
+# Прямые зависимости проекта: только то, что реально импортируется
+# в ноутбуке clustering.ipynb.
+# Транзитивные зависимости (scipy, joblib, contourpy, pyparsing и прочее)
+# не выписаны: pip подтянет их сам при установке scikit-learn.
+# Ноутбук запускается в Jupyter или VS Code, сам Jupyter здесь не закреплён.
+
+pandas==3.0.3
+numpy==2.5.1
+scikit-learn==1.9.0
+matplotlib==3.11.0
+seaborn==0.13.2
+plotly==5.19.0
+tqdm==4.70.0
+
+# plotly рисует 3D проекцию в PCA, tqdm показывает прогресс
+# в переборе 528 комбинаций параметров DBSCAN.
+# Версии plotly в pip freeze не было, взята из другого venv на диске.
