@@ -13,12 +13,6 @@ train_interactions.csv
 test_interactions.csv
 fastfood_transactions.csv
 
-# Каталоги изображений проекта CNN.
-# Внимание: это про images/ и queries/ рядом с CNN.ipynb.
-# Папка images/ в других проектах содержит графики для readme и остаётся в git.
-/Разработка модели для поиска товаров по их визуальному сходству (CNN)/images/
-/Разработка модели для поиска товаров по их визуальному сходству (CNN)/queries/
-
 # Служебное
 .ipynb_checkpoints/
 __pycache__/
